@@ -20,17 +20,23 @@ GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/c
 start
 
 {% highlight c# linenos %}
-   for (int i = 0 ; i < 10; i++)
-   {
-     // Code to execute.
-   }
+public static void AddFormat<TKey>(this Dictionary<TKey, string> dictionary,
+    TKey key,
+    string formatString,
+    params object[] argList)
+{
+    dictionary.Add(key, string.Format(formatString, argList));
+}
 {% endhighlight %}
    
 ```csharp
-   for (int i = 0 ; i < 10; i++)
-   {
-     // Code to execute.
-   }
+public static void AddFormat<TKey>(this Dictionary<TKey, string> dictionary,
+    TKey key,
+    string formatString,
+    params object[] argList)
+{
+    dictionary.Add(key, string.Format(formatString, argList));
+}
 ```
 
 ```cs
