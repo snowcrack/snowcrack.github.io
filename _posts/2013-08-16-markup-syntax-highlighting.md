@@ -19,17 +19,19 @@ GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/c
 
 start
    
-   ```csharp
+```csharp
    for (int i = 0 ; i < 10; i++)
    {
      // Code to execute.
    }
+```
 
-   ```cs
+```cs
    for (int i = 0 ; i < 10; i++)
    {
      // Code to execute.
    }
+```
 
 end 
 
