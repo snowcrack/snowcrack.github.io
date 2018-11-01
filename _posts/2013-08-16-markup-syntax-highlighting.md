@@ -17,6 +17,23 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
 
+start
+   
+   ```csharp
+   for (int i = 0 ; i < 10; i++)
+   {
+     // Code to execute.
+   }
+
+   ```cs
+   for (int i = 0 ; i < 10; i++)
+   {
+     // Code to execute.
+   }
+
+end 
+
+
 ```css
 #container {
   float: left;
